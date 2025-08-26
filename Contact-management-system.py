@@ -11,8 +11,8 @@ def isconnected()	:
 	try	:
 		mydb = mysql.connector.connect	(
 			host = "localhost",
-			user = 'root',
-			password = '1234',
+			user = 'your-mysql-username',
+			password = 'your-mysql-password'
 		)
 	
 		if mydb.is_connected()	:
